@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "gulp-livereload": "^2.1.1",
+    "jsx-loader": "^0.12.1",
     "node-watch": "^0.3.4"
   }
 }
