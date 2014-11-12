@@ -23,6 +23,11 @@ Build the project and watch for changes
 
     webpack -w 
 
+Running
+-------
+
+Open index.html in your browser. The router will redirect you to `#/` and includes links to the other examples.
+
 
 Technologies
 ------------
@@ -30,3 +35,5 @@ Technologies
 [React](http://facebook.github.io/react/)
 
 [React Router](https://github.com/rackt/react-router)
+
+
