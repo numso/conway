@@ -4,11 +4,29 @@ react-starter
 Initial setup for simple react applications
 
 
-Dependencies
+Building
+--------
+
+Install [Node.JS and NPM](http://nodejs.org/download/)
+
+Install [Webpack](http://webpack.github.io/) and [bower](http://bower.io/)
+ 
+    npm install -g webpack
+    npm install -g bower
+
+Install local dependencies
+
+    npm install
+    bower install
+
+Build the project and watch for changes
+
+    webpack -w 
+
+
+Technologies
 ------------
 
-Node
+[React](http://facebook.github.io/react/)
 
-Webpack
-
-
+[React Router](https://github.com/rackt/react-router)
