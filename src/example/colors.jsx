@@ -34,7 +34,6 @@ var ColorDisplay = React.createClass({
     var boxStyle = {
       backgroundColor: this.props.color,
       border: "solid 1px black",
-      color: "#FFF",
       width: 300,
       height: 100,
     }
