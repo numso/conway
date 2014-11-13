@@ -4,6 +4,7 @@
   "description": "react-starter =============",
   "main": "index.js",
   "scripts": {
+    "all": "node --harmony scripts/all.js",
     "start": "node --harmony server/app.js",
     "watch": "nodemon --watch server --harmony server/app.js",
     "lr": "node --harmony scripts/live-reload.js"

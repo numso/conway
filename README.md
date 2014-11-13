@@ -10,7 +10,7 @@ Building
 Install [Node.JS and NPM](http://nodejs.org/download/)
 
 Install [Webpack](http://webpack.github.io/) and [bower](http://bower.io/)
- 
+
     npm install -g webpack
     npm install -g bower
 
@@ -21,7 +21,12 @@ Install local dependencies
 
 Build the project and watch for changes
 
-    webpack -w 
+    webpack -w
+    npm run lr
+
+    OR
+
+    npm run all
 
 Running
 -------

@@ -1,5 +1,9 @@
-// run webpack
+// run webpack and live reload
 
-// run live reload
+var webpack = require('webpack');
+var config = require('../webpack.config');
+var livereload = require('gulp-livereload');
 
-// run watch server
+webpack(config).watch(200, function (err, stats) {
+  livereload.changed();
+});
