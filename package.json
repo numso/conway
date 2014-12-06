@@ -2,22 +2,20 @@
   "name": "Conway",
   "version": "1.0.0",
   "description": "Conway's game of life in React JS",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node --harmony server/app.js",
-    "watch": "nodemon --watch server --harmony server/app.js",
     "lr": "node --harmony scripts/live-reload.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KualiCo/react-starter.git"
+    "url": "https://github.com/numso/conway.git"
   },
-  "author": "",
+  "author": "Dallin Osmun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KualiCo/react-starter/issues"
+    "url": "https://github.com/numso/conway/issues"
   },
-  "homepage": "https://github.com/KualiCo/react-starter",
+  "homepage": "https://github.com/numso/conway",
   "dependencies": {
     "6to5": "^1.14.14",
     "6to5-loader": "^0.2.3",

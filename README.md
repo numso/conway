@@ -10,15 +10,12 @@ Installing
 
   - install node
   - `npm install -g webpack`
-  - `npm install -g bower`
   - `npm install`
-  - `bower install`
 
 Hacking
 -------
 
   - `webpack -w`
   - `npm run lr`
-  - `npm run watch`
 
 Open index.html in your browser
