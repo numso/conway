@@ -63,10 +63,19 @@ exports.step = function () {
   changed();
 };
 
+exports.pastePattern = function (pattern) {
+  for (var x = 0; x < pattern.length; ++x) {
+    for (var y = 0; y < pattern[x].length; ++y) {
+      state[x][y] = pattern[x][y];
+    }
+  }
+  changed();
+};
+
 exports.setCell = function (x, y, alive) {
   state[x][y] = alive;
   changed();
-}
+};
 
 exports.getState = function () {
   return state;

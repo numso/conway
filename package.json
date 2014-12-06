@@ -1,10 +1,9 @@
 {
-  "name": "react-starter",
+  "name": "Conway",
   "version": "1.0.0",
-  "description": "react-starter =============",
+  "description": "Conway's game of life in React JS",
   "main": "index.js",
   "scripts": {
-    "all": "node --harmony scripts/all.js",
     "start": "node --harmony server/app.js",
     "watch": "nodemon --watch server --harmony server/app.js",
     "lr": "node --harmony scripts/live-reload.js"
@@ -14,19 +13,20 @@
     "url": "https://github.com/KualiCo/react-starter.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/KualiCo/react-starter/issues"
   },
   "homepage": "https://github.com/KualiCo/react-starter",
   "dependencies": {
-    "react": "^0.12.0",
-    "react-router": "^0.10.2"
-  },
-  "devDependencies": {
+    "6to5": "^1.14.14",
+    "6to5-loader": "^0.2.3",
+    "bower": "^1.3.12",
     "gulp-livereload": "^2.1.1",
-    "jsx-loader": "^0.12.1",
+    "lodash": "^2.4.1",
     "node-watch": "^0.3.4",
+    "react": "^0.12.0",
+    "react-router": "^0.10.2",
     "webpack": "^1.4.13"
   }
 }

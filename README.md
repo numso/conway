@@ -1,37 +1,24 @@
-react-starter
-=============
+Conway's Game of Life in React
+==============================
 
-Initial setup for simple react applications
+Threw this together at a hackathon. It was fun. Thought I'd host it up here if anyone wanted to mess around with it.
 
+[conway.dallinosmun.com](http://conway.dallinosmun.com)
 
-Building
---------
+Installing
+----------
 
-Install [Node.JS and NPM](http://nodejs.org/download/)
+  - install node
+  - `npm install -g webpack`
+  - `npm install -g bower`
+  - `npm install`
+  - `bower install`
 
-Install [Webpack](http://webpack.github.io/)
-
-    npm install -g webpack
-
-Install local dependencies
-
-    npm install
-
-Build the project and watch for changes
-
-    webpack -w
-
-Running
+Hacking
 -------
 
-Open index.html in your browser. The router will redirect you to `#/` and includes links to the other examples.
+  - `webpack -w`
+  - `npm run lr`
+  - `npm run watch`
 
-
-Technologies
-------------
-
-[React](http://facebook.github.io/react/)
-
-[React Router](https://github.com/rackt/react-router)
-
-
+Open index.html in your browser

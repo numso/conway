@@ -13,14 +13,15 @@ var Cell = React.createClass({
       x: 0,
       y: 0,
       paintValue: true,
-      setPaintValue: function () {}
+      setPaintValue: function () {},
+      setCell: function () {}
     };
   },
 
   onMouseDown: function (e) {
     if (e.nativeEvent.which !== 1) return;
     this.props.setPaintValue(!this.props.alive);
-    GameState.setCell(
+    this.props.setCell(
       this.props.x,
       this.props.y,
       !this.props.alive
@@ -29,7 +30,7 @@ var Cell = React.createClass({
 
   onMouseOver: function (e) {
     if (e.nativeEvent.which !== 1) return;
-    GameState.setCell(
+    this.props.setCell(
       this.props.x,
       this.props.y,
       this.props.paintValue
